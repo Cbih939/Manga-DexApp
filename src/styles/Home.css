@@ -1,0 +1,30 @@
+.home {
+    padding: 20px 0;
+  }
+  
+  .manga-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .manga-item {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .manga-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .manga-item h3 {
+    margin: 10px 0;
+    padding: 0 5px;
+  }
+  
